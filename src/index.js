@@ -1,15 +1,44 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { sendToVercelAnalytics } from './vitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import "./Component.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import axios from "axios";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+const baseURL = process.env.REACT_APP_DOMAIN
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+export const axiosInstance = axios.create({
+  baseURL: baseURL,
+  timeout: 5000,
+  headers: {
+    "Content-Type": "application/json",
+    accept: "application/json",
+  },
+});
+
+axiosInstance.interceptors.request.use(
+  config => {
+    const token = "JWT " + localStorage.getItem("access");
+    if (token) {
+      config.headers.authorization = token;
+    }
+    return config;
+    
+  },
+ err =>  {
+    console.log(err);
+    console.log('hello')
+    return Promise.reject(err);
+  }
+
 );
 
-reportWebVitals(sendToVercelAnalytics);
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
+
