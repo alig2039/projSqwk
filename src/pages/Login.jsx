@@ -3,7 +3,7 @@ import useForm from "../hooks/useForm";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../redux/asyncActions/UserAsync";
 import { useHistory } from "react-router-dom";
-import { RiTwitterFill, RiEye2Fill } from "react-icons/ri";
+import { RiCake3Line, RiEye2Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import { BiError, BiKey } from "react-icons/bi";
@@ -37,7 +37,7 @@ const Login = () => {
     <div className="mainForm">
       <Link to="/explore">
         <i style={{ fontSize: 40 }}>
-          <RiTwitterFill color="#1da1f2" />
+          <RiCake3Line color="#1da1f2" />
         </i>
       </Link>
       <h1 className="heading">Log in to Squawk</h1>
