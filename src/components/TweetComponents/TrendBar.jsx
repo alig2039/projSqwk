@@ -32,26 +32,7 @@ const TrendBar = () => {
       
       </div>
       )}
-
-      <div className="d-flex justify-content-center">
-        <div className="center mt-2">
-          <Link to="/" className="side-name mx-2">
-            Terms and services
-          </Link>
-          <Link to="/" className="side-name mx-2">
-            Private Policy
-          </Link>
-          <Link to="/" className="side-name mx-2">
-            Cookie Policy
-          </Link>
-          <Link to="/" className="side-name mx-2">
-            Ads Info
-          </Link>
-          <Link to="/" className="side-name mx-2">
-            More
-          </Link>
-        </div>
-      </div>
+      
     </div>
   );
 };
