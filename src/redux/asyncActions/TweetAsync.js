@@ -130,7 +130,7 @@ export const reTweet = (tweetId) => async (dispatch) => {
     });
 
     dispatch(tweetAdded(res.data));
-    dispatch(setMessage(`Re Tweeted !`));
+    dispatch(setMessage(`Re Squawked !`));
   } catch (err) {
     dispatch(tweetFail());
     console.log(err.response.data);
@@ -145,9 +145,9 @@ export const deleteTweet =
       await axiosInstance.delete(`tweets/${pk}/`);
       dispatch(deletedSuccess(pk));
       if (DelRetweet) {
-        dispatch(setMessage(`Retweet Removed !`));
+        dispatch(setMessage(`ReSquawk Removed !`));
       } else {
-        dispatch(setMessage(`Tweet Deleted !`));
+        dispatch(setMessage(`Squawk Deleted !`));
       }
     } catch (err) {
       dispatch(tweetFail());
@@ -165,7 +165,7 @@ export const editTweet = (id, title, isChecked) => async (dispatch) => {
     });
     dispatch(setLoading(false));
     dispatch(tweetDetail(res.data));
-    dispatch(setMessage(`Tweet Updated !`));
+    dispatch(setMessage(`Squawk Updated !`));
   } catch (err) {
     dispatch(tweetFail());
     console.log(err);
