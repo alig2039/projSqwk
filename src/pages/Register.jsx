@@ -3,7 +3,7 @@ import useForm from "../hooks/useForm";
 import { useDispatch, useSelector } from "react-redux";
 import { register } from "../redux/asyncActions/UserAsync";
 import { useHistory } from "react-router-dom";
-import { RiTwitterFill } from "react-icons/ri";
+import { RiCake3Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import { WarningText } from "../GooberStyled/Common";
@@ -33,7 +33,7 @@ const Register = () => {
     <div className="mainForm">
       <div style={{maxWidth:'400px'}}>
       <i style={{ fontSize: 40 }}>
-        <RiTwitterFill color="#1da1f2" />
+        <RiCake3Line color="#1da1f2" />
       </i>
       <h2 className="heading">Register</h2>
       {user.message && (
