@@ -51,7 +51,7 @@ export const userRegister = createSlice({
     },
     userRegisterSuccess: (state, action) => {
       state.message =
-        "Successfully registered ! Please activate account from mail.";
+        "Successfully registered ! Please Log in with your email address and password.";
     },
     userFail: (state, { payload }) => {
       state.user = null;
