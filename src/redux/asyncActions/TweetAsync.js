@@ -115,7 +115,7 @@ export const addTweet = (uploadData) => async (dispatch) => {
 
     dispatch(setUploading(false));
     dispatch(tweetAdded(res.data));
-    dispatch(setMessage(`Tweet Added !`));
+    dispatch(setMessage(`Squawk Added!`));
   } catch (err) {
     dispatch(tweetFail());
     console.log(err.response.data);
