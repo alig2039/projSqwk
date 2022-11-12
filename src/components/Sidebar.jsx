@@ -131,6 +131,21 @@ const Sidebar = () => {
               </Link>
             )}
           </li>
+
+          <li>
+            {isAuthenticated ? (
+              <Link to="#">
+                
+              </Link>
+            ) : (
+              <Link to="/register">
+                <i>
+                  <BiClipboard />
+                </i>
+                <span className="link-text">Register</span>
+              </Link>
+            )}
+          </li>
         </ul>
       </div>
     </>

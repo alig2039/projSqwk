@@ -10,17 +10,23 @@ The system uses a React front end with a Django Rest Framework backend.
 The back end repository can be found [here](https://github.com/alig2039/project5_squawk_front)
 
 ## User Experience(UX)
+
 -    ### User Stories
-    -   ### Anonymous/Unregistered/First time User
-        -  As an anonymous user, I want to be able to register for an account on the system or log into the system with an existing account so that i can interact with the system.
+
+    -   ### Anonymous/Unregistered/First time User Goals
+        -  As an anonymous user, I want to be able to Log into the system with an existing account so that i can like, reply and re post other users' posts.
+        -  As an anonymous user, I want to be able to Register for an account so that i can Log in and like, reply and re post other users' posts.
+        -  As an anonymous user, I want to be able to view public posts on the system without logging in or registering for an account so that i can see the activity and popularity of the social media platform.
 
     -   ### Registered User Goals
-        -   As a Registered user, I want to be able to add a post so that users that follow me can see it on their home pages. 
+        -   As a Registered user, I want to be able to add a post so that other users can see it on their home pages. 
         -   As a Registered user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
         -   As a Registered user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
         -   As a Registered user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
+        -   As a Registered user, I want to be able to see notifications of interactions with my posts and of new followers so that i can interact with other users on the platform.
 
 ### Design
+
 -   ### Colour Scheme
     -   The main colours used are a Brown background with white text, with the default Bootstrap button styles.
 
@@ -42,6 +48,7 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 -   Interactive Elements
 
 ## Technologies Used
+
 ### Languages Used
 -   [Python](https://www.python.org/)
 -   [HTML5](https://html.com/html5/)
@@ -72,10 +79,33 @@ The back end repository can be found [here](https://github.com/alig2039/project5
     
 
 ## Testing
-* Automated testing is used for each app to test models and views implemented and successfully carried out using the Django testing module.
-* User stories were tested to support the View and CRUD functionality imeplemented and expected for every user and every user group
+Validation of .js and .jsx files to detect syntax errors automtically done by Code Editor and interpretor when running npm start locally.
 
-### Further Testing
+### Testing User Stories from User Experience (UX) Section
+
+-   ### Anonymous/Unregistered/First time User Goals
+
+    1.  As an anonymous user, I want to be able to Log into the system with an existing account so that i can like, reply and re post other users' posts.
+
+        1.  On loading the site, a user that is not logged in is able to see the Login button on the home page left side Menu. This lets the user click the button to go to the Login page where they can login and interact with the platform. Without logging in, a user will not be able to like, comment or re-post a post. This is seen via an on-screen prompt if the user attempts this.
+
+    2.  As an anonymous user, I want to be able to Register for an account so that i can Log in and like, reply and re post other users' posts.
+
+        1.  A first time user coming to the site is able to Register for an account by clicking the Register button on the home page left side menu and then provding a username, email and password to create an account. After successful creation, which will be confirmed with an on-screen notification, the user can go back to the Login page via a link at the end of the Registration form, to Log into the site.
+        2.  A first time user coming to the site is able to Register for an account by clicking the Register link at the bottom of the Login page. At the Registration page they will then provde a username, email and password to create an account. After successful creation, which will be confirmed with an on-screen notification, the user can go back to the Login page via a link at the end of the Registration form, to Log into the site.
+
+    3.  As an anonymous user, I want to be able to view public posts on the system without logging in or registering for an account so that i can see the activity and popularity of the social media platform.
+
+        1.  An unauthenticated user is able to view but not interact with posts from other users on the platform by following the Explore link at the bottom of the Login and Register pages.
+
+-   ### Registered User Goals
+    -   As a Registered user, I want to be able to add a post so that users that follow me can see it on their home pages. 
+    -   As a Registered user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
+    -   As a Registered user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
+    -   As a Registered user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
+    -   As a Registered user, I want to be able to see notifications of interactions with my posts and of new followers so that i can interact with other users on the platform.
+
+### Testing User Stories from User Experience (UX) Section
 * The site was tested on Google chrome and Ms Edge browsers.
 * A local SQLite database is used for testing data and values with a Postgres database used in production
 
