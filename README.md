@@ -1,5 +1,7 @@
 Welcome,
 
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253275/Screenshot_2022-11-12_143813_ea5wm1.jpg">
+
 Squawk is a Social Network that allows for posting, replying and re-broadcast of posts. A social feed is created for every user and Users can follow others. 
 
 The User acceptance criteria is for users to be able to post, reply, follow another user to see their posts on a social feed and re-broadcast another user's posts
@@ -10,14 +12,14 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 ## User Experience(UX)
 ### User Stories
 * Anonymous/Unregistered/First time User
-    * As an anonymous user I should not be able to view any content without logging in
-    * As an anonymous user I should be able to register for an account on the system or log into the system with an existing account.
+    * As an anonymous user, I should not be able to view any content without logging in
+    * As an anonymous user, I should be able to register for an account on the system or log into the system with an existing account.
 
-* User Goals
-    * As a user I expect to be able to add a post that users that follow me can see. 
-    * As a user I expect to be able to view posts of users that i follow
-    * As a user I expect to be able to re-post or re-broadcast posts i see. 
-    * As a user I expect to be able to chat with other users. 
+* Registered User Goals
+    * As a Registered user, I expect to be able to add a post that users that follow me can see. 
+    * As a Registered user, I expect to be able to view posts of users that i follow
+    * As a Registered user, I expect to be able to re-post or re-broadcast posts i see. 
+    * As a Registered user, I expect to be able to chat with other users. 
 
 ### Design
 * Colour Scheme
@@ -32,6 +34,7 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/4_hu3qve.jpg">
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/3_qnctu1.jpg">
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250486/1_la1z8t.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253274/Screenshot_2022-11-12_143742_afjg6m.jpg">
 
 * Post status updates in text and media that can be seen by users that follow you.
 * Like and Comment on other updates.
