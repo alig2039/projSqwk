@@ -22,10 +22,10 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 
 ### Design
 * Colour Scheme
-    * The main colours used are black and white, a white background with a black navigation bar. With the default Bootstrap buttons and colours used.
+    * The main colours used are a Brown background with white text, with the default Bootstrap button styles.
 
 * Imagery
-    * The site contains a solo image which is the company logo in the top left hand corner of the navigation bar
+    * The site contains a cupcake logo and favicon as logo. Default Avatar and cover images are provided with the option for users to upload custom images to replace these. All images are stored in Cloudinary
 
 ## Features
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">

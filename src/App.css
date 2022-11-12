@@ -347,10 +347,10 @@ body {
   background-color: var(--red);
 }
 .link-tweet.outline {
-  background-color: rgb(79, 115, 186);
+  background-color: #b61146;
 }
 .link-tweet.outline:hover {
-  background-color: rgb(47, 77, 138);
+  background-color: #c2184e;
 }
 .btn-outline {
   background-color: var(--background);

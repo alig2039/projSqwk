@@ -37,7 +37,7 @@ const Login = () => {
     <div className="mainForm">
       <Link to="/explore">
         <i style={{ fontSize: 40 }}>
-          <RiCake3Line color="#1da1f2" />
+          <RiCake3Line color="#c2184e" />
         </i>
       </Link>
       <h1 className="heading">Log in to Squawk</h1>
