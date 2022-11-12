@@ -27,6 +27,15 @@ The back end repository can be found [here](https://github.com/alig2039/project5
     * The site contains a solo image which is the company logo in the top left hand corner of the navigation bar
 
 ## Features
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/2_q4fixm.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/4_hu3qve.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/3_qnctu1.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250486/1_la1z8t.jpg">
+
+* Post status updates in text and media that can be seen by users that follow you.
+* Like and Comment on other updates.
+* Follow other users to see their posts and send them private messages.
 * Responsive on all device sizes
 
 ## Schema
