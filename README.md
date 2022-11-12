@@ -155,6 +155,13 @@ The project was developed and deployed to Heroku using the following steps.
 
 ## Credits
 
+### Code
+
+* The project was largely inspired and guided by the twitter clone at this [repository](https://github.com/learningnoobi/twitter-react)
+* This [site](https://react-icons.github.io/react-icons/icons?name=bi) was used as a reference guide for dealing with the React Icon Set.
+* The Code Insitute Sample ReadMe GitHub [repository](https://github.com/Code-Institute-Solutions/SampleREADME) was used as a guide when creating this readMe
+
 ### Acknowledgements
+* My colleagues for their valuable feedback and patience.
 
 
