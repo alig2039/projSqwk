@@ -12,14 +12,13 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 ## User Experience(UX)
 ### User Stories
 * Anonymous/Unregistered/First time User
-    * As an anonymous user, I should not be able to view any content without logging in
-    * As an anonymous user, I should be able to register for an account on the system or log into the system with an existing account.
+    * As an anonymous user, I want to be able to register for an account on the system or log into the system with an existing account so that i can interact with the system.
 
 * Registered User Goals
-    * As a Registered user, I expect to be able to add a post that users that follow me can see. 
-    * As a Registered user, I expect to be able to view posts of users that i follow
-    * As a Registered user, I expect to be able to re-post or re-broadcast posts i see. 
-    * As a Registered user, I expect to be able to chat with other users. 
+    * As a Registered user, I want to be able to add a post so that users that follow me can see it on their home pages. 
+    * As a Registered user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
+    * As a Registered user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
+    * As a Registered user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
 
 ### Design
 * Colour Scheme
@@ -40,6 +39,7 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 * Like and Comment on other updates.
 * Follow other users to see their posts and send them private messages.
 * Responsive on all device sizes
+* Interactive Elements
 
 ## Schema
 
