@@ -13,27 +13,32 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 
 -    ### User Stories
 
-    -   ### Anonymous/Unregistered/First time User Goals
-        -  As an anonymous user, I want to be able to Log into the system with an existing account so that i can like, reply and re post other users' posts.
-        -  As an anonymous user, I want to be able to Register for an account so that i can Log in and like, reply and re post other users' posts.
-        -  As an anonymous user, I want to be able to view public posts on the system without logging in or registering for an account so that i can see the activity and popularity of the social media platform.
+    -   #### Anonymous/Unregistered/First time User Goals
 
-    -   ### Registered User Goals
-        -   As a Registered user, I want to be able to add a post so that other users can see it on their home pages. 
-        -   As a Registered user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
-        -   As a Registered user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
-        -   As a Registered user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
-        -   As a Registered user, I want to be able to see notifications of interactions with my posts and of new followers so that i can interact with other users on the platform.
+        1. As an anonymous user, I want to be able to Log into the system with an existing account so that i can like, reply and re post other users' posts.
+        2. As an anonymous user, I want to be able to Register for an account so that i can Log in and like, reply and re post other users' posts.
+        3. As an anonymous user, I want to be able to view public posts on the system without logging in or registering for an account so that i can see the activity and popularity of the social media platform.
+
+    -   #### Authenticated User Goals
+
+        1. As a Authenticated user, I want to be able to add a post so that other users can see it on their home pages. 
+        2. As a Authenticated user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
+        3. As a Authenticated user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
+        4. As a Authenticated user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
+        5. As a Authenticated user, I want to be able to see notifications of interactions with my posts and of new followers so that i can interact with other users on the platform.
 
 ### Design
 
 -   ### Colour Scheme
+
     -   The main colours used are a Brown background with white text, with the default Bootstrap button styles.
 
 -   ### Imagery
+
     -   The site contains a cupcake logo and favicon as logo. Default Avatar and cover images are provided with the option for users to upload custom images to replace these. All images are stored in Cloudinary
 
 ## Features
+
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/2_q4fixm.jpg">
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/4_hu3qve.jpg">
@@ -50,12 +55,14 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 ## Technologies Used
 
 ### Languages Used
+
 -   [Python](https://www.python.org/)
 -   [HTML5](https://html.com/html5/)
 -   CSS3
 -   [React](https://reactjs.org/)
 
 ### Frameworks, Libraries & Programs Used
+
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Django](http://www.djangoproject.com/)
@@ -79,6 +86,7 @@ The back end repository can be found [here](https://github.com/alig2039/project5
     
 
 ## Testing
+
 Validation of .js and .jsx files to detect syntax errors automtically done by Code Editor and interpretor when running npm start locally.
 
 ### Testing User Stories from User Experience (UX) Section
@@ -87,35 +95,55 @@ Validation of .js and .jsx files to detect syntax errors automtically done by Co
 
     1.  As an anonymous user, I want to be able to Log into the system with an existing account so that i can like, reply and re post other users' posts.
 
-        1.  On loading the site, a user that is not logged in is able to see the Login button on the home page left side Menu. This lets the user click the button to go to the Login page where they can login and interact with the platform. Without logging in, a user will not be able to like, comment or re-post a post. This is seen via an on-screen prompt if the user attempts this.
+        1. On loading the site, a user that is not logged in is able to see the Login button on the home page left side Menu. This lets the user click the button to go to the Login page where they can login and interact with the platform. Without logging in, a user will not be able to like, comment or re-post a post. This is seen via an on-screen prompt if the user attempts this.
 
     2.  As an anonymous user, I want to be able to Register for an account so that i can Log in and like, reply and re post other users' posts.
 
-        1.  A first time user coming to the site is able to Register for an account by clicking the Register button on the home page left side menu and then provding a username, email and password to create an account. After successful creation, which will be confirmed with an on-screen notification, the user can go back to the Login page via a link at the end of the Registration form, to Log into the site.
-        2.  A first time user coming to the site is able to Register for an account by clicking the Register link at the bottom of the Login page. At the Registration page they will then provde a username, email and password to create an account. After successful creation, which will be confirmed with an on-screen notification, the user can go back to the Login page via a link at the end of the Registration form, to Log into the site.
+        1. A first time user coming to the site is able to Register for an account by clicking the Register button on the home page left side menu and then provding a username, email and password to create an account. After successful creation, which will be confirmed with an on-screen notification, the user can go back to the Login page via a link at the end of the Registration form, to Log into the site.
+        2. A first time user coming to the site is able to Register for an account by clicking the Register link at the bottom of the Login page. At the Registration page they will then provde a username, email and password to create an account. After successful creation, which will be confirmed with an on-screen notification, the user can go back to the Login page via a link at the end of the Registration form, to Log into the site.
 
     3.  As an anonymous user, I want to be able to view public posts on the system without logging in or registering for an account so that i can see the activity and popularity of the social media platform.
 
-        1.  An unauthenticated user is able to view but not interact with posts from other users on the platform by following the Explore link at the bottom of the Login and Register pages.
+        1. An unauthenticated user is able to view but not interact with posts from other users on the platform by following the Explore link at the bottom of the Login and Register pages.
 
--   ### Registered User Goals
-    -   As a Registered user, I want to be able to add a post so that users that follow me can see it on their home pages. 
-    -   As a Registered user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
-    -   As a Registered user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
-    -   As a Registered user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
-    -   As a Registered user, I want to be able to see notifications of interactions with my posts and of new followers so that i can interact with other users on the platform.
+-   ### Authenticated User Goals
+
+    1.  As a Authenticated user, I want to be able to add a post so that it can be viewed by other users.
+
+        1. When a user logs in, they're able to post a status update by typing under the section at the top marked "What's Up?" and clicking the Squawk button. Multimedia is supported where users can post text, images and smileys.
+
+    2.  As a Authenticated user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
+
+        1. Posts and activity from other users that a user follows will show up on the center section of the home page.
+        2. Following other users can be done by clicking Follow next to a user name on the right side menu showing a list of users. Users can be unfollowed by the Unfollow button on their profile page.
+
+    3.  As a Authenticated user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page.
+
+        1. A post from another user can be re posted by clicking on the center icon below a post on the home page. Doing this allows users following the authenticated user to see this post as well whether they follow the author or not.
+
+    4.  As a Authenticated user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users.
+
+        1. A user can send messages to another user by clicking on that user's profile to go to their profile page. On their profile page, clicking on the Arrow icon next to the Unfollow button at the top of the page. Doing this opens a message page where a message to that user can be typed and sent.
+        2. The Messages link on the left menu shows a list of active Messages. Starting a new message is expected to be initiated as described above, via the other user's profile page.
+
+    5.  As a Authenticated user, I want to be able to see notifications of interactions with my posts and of new followers so that i can interact with other users on the platform.
+
+        1. An authenticated user can click on the Notifications link on the left side menu to see their notifications. Notifications show activity from other users such as following the user, liking the user's posts, commenting on the user's posts and re posting the user's posts.
 
 ### Testing User Stories from User Experience (UX) Section
+
 * The site was tested on Google chrome and Ms Edge browsers.
 * A local SQLite database is used for testing data and values with a Postgres database used in production
 
 ## Deployment
+
 The project was developed and deployed to Heroku using the following steps.
 * Cloned the Heroku django starter template following this [guide](https://devcenter.heroku.com/articles/getting-started-with-python)
 * Created two Github repositories, added it as a remote and pushed to this repository.
 * Modified the Heroku template to suite my needs.
 
 ## Credits
+
 ### Acknowledgements
 
 
