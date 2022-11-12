@@ -10,22 +10,22 @@ The system uses a React front end with a Django Rest Framework backend.
 The back end repository can be found [here](https://github.com/alig2039/project5_squawk_front)
 
 ## User Experience(UX)
-### User Stories
-* Anonymous/Unregistered/First time User
-    * As an anonymous user, I want to be able to register for an account on the system or log into the system with an existing account so that i can interact with the system.
+-    ### User Stories
+    -   ### Anonymous/Unregistered/First time User
+        -  As an anonymous user, I want to be able to register for an account on the system or log into the system with an existing account so that i can interact with the system.
 
-* Registered User Goals
-    * As a Registered user, I want to be able to add a post so that users that follow me can see it on their home pages. 
-    * As a Registered user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
-    * As a Registered user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
-    * As a Registered user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
+    -   ### Registered User Goals
+        -   As a Registered user, I want to be able to add a post so that users that follow me can see it on their home pages. 
+        -   As a Registered user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
+        -   As a Registered user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
+        -   As a Registered user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
 
 ### Design
-* Colour Scheme
-    * The main colours used are a Brown background with white text, with the default Bootstrap button styles.
+-   ### Colour Scheme
+    -   The main colours used are a Brown background with white text, with the default Bootstrap button styles.
 
-* Imagery
-    * The site contains a cupcake logo and favicon as logo. Default Avatar and cover images are provided with the option for users to upload custom images to replace these. All images are stored in Cloudinary
+-   ### Imagery
+    -   The site contains a cupcake logo and favicon as logo. Default Avatar and cover images are provided with the option for users to upload custom images to replace these. All images are stored in Cloudinary
 
 ## Features
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">
@@ -35,20 +35,18 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250486/1_la1z8t.jpg">
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253274/Screenshot_2022-11-12_143742_afjg6m.jpg">
 
-* Post status updates in text and media that can be seen by users that follow you.
-* Like and Comment on other updates.
-* Follow other users to see their posts and send them private messages.
-* Responsive on all device sizes
-* Interactive Elements
-
-## Schema
+-   Post status updates in text and media that can be seen by users that follow you.
+-   Like and Comment on other updates.
+-   Follow other users to see their posts and send them private messages.
+-   Responsive on all device sizes
+-   Interactive Elements
 
 ## Technologies Used
 ### Languages Used
-* [Python](https://www.python.org/)
-* [HTML5](https://html.com/html5/)
-* CSS3
-* [React](https://reactjs.org/)
+-   [Python](https://www.python.org/)
+-   [HTML5](https://html.com/html5/)
+-   CSS3
+-   [React](https://reactjs.org/)
 
 ### Frameworks, Libraries & Programs Used
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
