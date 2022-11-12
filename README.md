@@ -37,6 +37,12 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 
     -   The site contains a cupcake logo and favicon as logo. Default Avatar and cover images are provided with the option for users to upload custom images to replace these. All images are stored in Cloudinary
 
+### Wireframes
+-   Home Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668291404/Home_xxbafa.png)
+-   Profile Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668293107/Profile_s5ayjr.png)
+-   Notifications Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668293107/Notificatoins_utnrzz.png)
+-   Messages Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668293110/Message_ewrclx.png)
+
 ## Features
 
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">
