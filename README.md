@@ -11,7 +11,7 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 
 ## User Experience(UX)
 
--    ### User Stories
+-   ### User Stories
 
     -   #### Anonymous/Unregistered/First time User Goals
 
