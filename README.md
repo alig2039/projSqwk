@@ -46,7 +46,7 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250486/1_la1z8t.jpg">
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253274/Screenshot_2022-11-12_143742_afjg6m.jpg">
 
--   Post status updates in text and media that can be seen by users that follow you.
+-   Post status updates in text and media.
 -   Like and Comment on other updates.
 -   Follow other users to see their posts and send them private messages.
 -   Responsive on all device sizes
@@ -74,9 +74,9 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Heroku](heroku.com) 
-    - Heroku is used as a backend host server.
+    - Heroku is used as a backend host.
 1. [Vercel](https://vercel.com) 
-    - Vercel is used as a frontend host server.
+    - Vercel is used as a frontend host.
 1. [Npm](https://www.npmjs.com/)
     - Npm is used as a Node package manager for the installation and maintenance of React related packages.
 1. Django [Channels](https://github.com/django/channels) 
@@ -130,17 +130,28 @@ Validation of .js and .jsx files to detect syntax errors automtically done by Co
 
         1. An authenticated user can click on the Notifications link on the left side menu to see their notifications. Notifications show activity from other users such as following the user, liking the user's posts, commenting on the user's posts and re posting the user's posts.
 
-### Testing User Stories from User Experience (UX) Section
+### Further Testing
 
-* The site was tested on Google chrome and Ms Edge browsers.
-* A local SQLite database is used for testing data and values with a Postgres database used in production
+-   The site was tested on Firefox, Ms Edge browsers on desktop and Safari on iPhone.
+-   A local SQLite database is used for testing data and values with a Postgres database used in production
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and colleagues were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+-   The site is not able to upload HEIC images from iOS devices and images larger than approximately 10MB.
+-   Manual refreshes are sometimes needed for the user interface to update content such as private messages and notifications.
+-   The site functionality can be impaired by browsers that restrict or limit javascript for security purposes.
+
 
 ## Deployment
 
 The project was developed and deployed to Heroku using the following steps.
-* Cloned the Heroku django starter template following this [guide](https://devcenter.heroku.com/articles/getting-started-with-python)
-* Created two Github repositories, added it as a remote and pushed to this repository.
-* Modified the Heroku template to suite my needs.
+* The frontend and backend parent repositories were locally cloned and customised to suit my needs.
+* Separate repositories were created for the backend and fronend on GitHub for version control.
+* Once the frontend and backend were tested and working successfully locally, the backend was deployed to Heroku and the frontend to Vercel. I initially attempted to use Heroku as a frontend Host but this was not found to be ideal for React. On searching, Vercel was found to be an adequate host.
+* The previous frontend repository from which deployment to Heroku was attempted for React can be found [here](https://github.com/alig2039/ProjFiveFront)
+* Additional modifications were performed based on feedback from the test group used.
 
 ## Credits
 
