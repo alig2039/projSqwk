@@ -27,9 +27,6 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 * Imagery
     * The site contains a cupcake logo and favicon as logo. Default Avatar and cover images are provided with the option for users to upload custom images to replace these. All images are stored in Cloudinary
 
-### Wireframes
-
-
 ## Features
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">
 <img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/2_q4fixm.jpg">
@@ -54,13 +51,27 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 * [React](https://reactjs.org/)
 
 ### Frameworks, Libraries & Programs Used
-* [Django](http://www.djangoproject.com/) was used to build the site.
-* [Bootstrap](https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website.
-* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-* [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
-* [Heroku](heroku.com) used as a host.
-* [Npm](https://www.npmjs.com/)
-* Django [Channels](https://github.com/django/channels) to provide chat and private messaging functionality.
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Django](http://www.djangoproject.com/)
+    - Django was used as a web framework to build the api backend.
+1. [Django Rest Framework](https://www.django-rest-framework.org/)
+    - Django Rest Frameworks is a webAPI toolkit based on Django and Python used to build the API that supports the backend.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Heroku](heroku.com) 
+    - Heroku is used as a backend host server.
+1. [Vercel](https://vercel.com) 
+    - Vercel is used as a frontend host server.
+1. [Npm](https://www.npmjs.com/)
+    - Npm is used as a Node package manager for the installation and maintenance of React related packages.
+1. Django [Channels](https://github.com/django/channels) 
+    - Django Channels is used to provide chat and private messaging functionality.
+1. [VSCode](https://code.visualstudio.com/) 
+    - VSCode used as a code editor
+    
 
 ## Testing
 * Automated testing is used for each app to test models and views implemented and successfully carried out using the Django testing module.
