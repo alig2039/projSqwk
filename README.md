@@ -7,7 +7,8 @@ Squawk is a Social Network that allows for posting, replying and re-broadcast of
 The User acceptance criteria is for users to be able to post, reply, follow another user to see their posts on a social feed and re-broadcast another user's posts
 
 The system uses a React front end with a Django Rest Framework backend.
-The back end repository can be found [here](https://github.com/alig2039/project5_squawk_front)
+
+The back end repository can be found [here](https://github.com/alig2039/project5_squark_back/)
 
 ## User Experience(UX)
 
