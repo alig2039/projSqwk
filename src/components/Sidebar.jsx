@@ -139,9 +139,6 @@ const Sidebar = () => {
               </Link>
             ) : (
               <Link to="/register">
-                <i>
-                  <BiClipboard />
-                </i>
                 <span className="link-text">Register</span>
               </Link>
             )}

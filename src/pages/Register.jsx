@@ -33,7 +33,7 @@ const Register = () => {
     <div className="mainForm">
       <div style={{maxWidth:'400px'}}>
       <i style={{ fontSize: 40 }}>
-        <RiCake3Line color="#c2184e" />
+        <RiCake3Line color="#7F00FF" />
       </i>
       <h2 className="heading">Register</h2>
       {user.message && (

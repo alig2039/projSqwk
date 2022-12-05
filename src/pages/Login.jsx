@@ -37,7 +37,7 @@ const Login = () => {
     <div className="mainForm">
       <Link to="/explore">
         <i style={{ fontSize: 40 }}>
-          <RiCake3Line color="#c2184e" />
+          <RiCake3Line color="#7F00FF" />          
         </i>
       </Link>
       <h1 className="heading">Log in to Squawk</h1>
@@ -71,7 +71,7 @@ const Login = () => {
               cursor: "pointer",
             }}
             onClick={changetype}
-            color="#1da1f2"
+            color="#7F00FF"
           />
         </span>
 

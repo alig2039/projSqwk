@@ -79,7 +79,7 @@
 }
 .login-btn {
   width: 100%;
-  background-color: #1da1f2 !important;
+  background-color: #8c00ff !important;
   padding: 12px !important;
   margin-top: 10px;
 }
@@ -92,10 +92,10 @@
 }
 .link-go {
   font-weight: bolder;
-  color: rgb(211, 52, 121);
+  color: #8c00ff;
 }
 .link-go:hover {
-  color: rgb(218, 99, 150);
+  color: #8c00ff;
 }
 .add-tweet-image {
   position: relative;
