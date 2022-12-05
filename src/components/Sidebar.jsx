@@ -65,7 +65,7 @@ const Sidebar = () => {
           <li>
             <Link to="/">
               <i>
-                <RiCake3Fill />
+                <RiCake3Fill color="#7F00FF"/>
               </i>
             </Link>
             <span
@@ -128,18 +128,6 @@ const Sidebar = () => {
                   <BiLogIn />
                 </i>
                 <span className="link-text">Login</span>
-              </Link>
-            )}
-          </li>
-
-          <li>
-            {isAuthenticated ? (
-              <Link to="#">
-                
-              </Link>
-            ) : (
-              <Link to="/register">
-                <span className="link-text">Register</span>
               </Link>
             )}
           </li>

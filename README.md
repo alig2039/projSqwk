@@ -32,7 +32,7 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 
 -   ### Colour Scheme
 
-    -   The main colours used are a Brown background with white text, with the default Bootstrap button styles.
+    -   The main colours used are a Brown background with white text, and purple links and buttons.
 
 -   ### Imagery
 

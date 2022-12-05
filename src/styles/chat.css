@@ -96,7 +96,7 @@
   border-bottom-left-radius: 9px;
   border-top-right-radius: 9px;
   border-bottom-right-radius: 0px;
-  background-color: rgb(231, 28, 123);
+  background-color: #7F00FF;
 }
 .bottom-input {
   /* margin-top: 3px; */
@@ -138,7 +138,7 @@
 }
 
 .chat-input:focus {
-  border: 2px solid rgb(249, 24, 128);
+  border: 2px solid #7F00FF;
 }
 .chat-input::placeholder {
   color: rgb(87, 119, 144);
@@ -148,10 +148,10 @@
 .largeicon {
   font-size: 25px;
   cursor: pointer;
-  color: rgb(249, 24, 128);
+  color: #7F00FF;
 }
 .largeicon:hover {
-  color: rgb(192, 36, 109);
+  color: #8A2BE2;
   font-size: 27px;
 }
 .room-div{

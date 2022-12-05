@@ -203,7 +203,7 @@
   font-size: 20px;
 }
 .icon:hover {
-  color: rgb(235, 57, 57);
+  color: #8A2BE2;
 }
 .pointer {
   cursor: pointer;
@@ -226,7 +226,7 @@
 
 /* Handle */
 #modalId::-webkit-scrollbar-thumb {
-  background: rgb(235, 58, 91);
+  background: #8A2BE2;
 }
 
 /* Handle on hover */
@@ -262,10 +262,10 @@
   transition: 300ms ease-in;
 }
 .showed {
-  color: rgb(231, 117, 180);
+  color: #8A2BE2;
 }
 .showHideReply:hover {
-  color: rgb(211, 80, 148);
+  color: #8A2BE2;
 }
 @media only screen and (max-width: 1150px) {
   .profile-image {

@@ -136,7 +136,7 @@ const PrivateRoomChat = () => {
               className="largeicon center"
               title="load more"
             >
-              <BiUpArrowCircle />
+              <BiUpArrowCircle color="#7F00FF" />
             </i>
           )}
           {/* <ScrollableFeed> */}
@@ -200,7 +200,7 @@ const PrivateRoomChat = () => {
               position="up"
               setInput={setMsgInput}
             />
-            <BiSend onClick={sendChat} className="largeicon mx-2" />
+            <BiSend color="#7F00FF" onClick={sendChat} className="largeicon mx-2" />
           </span>
         </div>
       </div>
