@@ -142,6 +142,10 @@ Validation of .js and .jsx files to detect syntax errors automtically done by Co
 -   A local SQLite database is used for testing data and values with a Postgres database used in production
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and colleagues were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Site as seen on:
+    *   [Ipad](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670356930/1ipad_spuu3y.jpg)
+    *   [Iphone](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670356930/iphone_bbpxti.jpg)
+    *   [GalaxyNote](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670356929/galaxy_icui5a.jpg)    
 
 ### Known Bugs
 
