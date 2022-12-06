@@ -1,6 +1,6 @@
 Welcome,
 
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253275/Screenshot_2022-11-12_143813_ea5wm1.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670342499/home_page_klphg5.jpg">
 
 Squawk is a Social Network that allows for posting, replying and re-broadcast of posts. A social feed is created for every user and Users can follow others. 
 
@@ -46,12 +46,11 @@ The back end repository can be found [here](https://github.com/alig2039/project5
 
 ## Features
 
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/2_q4fixm.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/4_hu3qve.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/3_qnctu1.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250486/1_la1z8t.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253274/Screenshot_2022-11-12_143742_afjg6m.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670342094/login_bqdg0h.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670342094/register_q2lfpg.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670342094/profile_page_otyhrg.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670342094/messages_cay5ml.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670342095/notifications_puijuy.jpg">
 
 -   Post status updates in text and media.
 -   Like and Comment on other updates.
